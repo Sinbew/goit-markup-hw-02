@@ -5,35 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="./studio.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a class="logo" href="/">
+          <span class="logo-blue-part">Web</span><span class="logo-black-part">Studio</span>
+        </a>
+        <ul class="pages">
+          <li><a class="studio-page" href="./studio.html">Студия</a></li>
+          <li><a class="portfolio-page" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="contacts-page" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="header-contacts">
+        <li>
+          <a class="header-mail-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="header-tel-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
+
+    <!-- Main -->
+
     <main>
       <h1>Студия</h1>
     </main>
 
     <!-- Footer -->
-    <footer>
-      <a href="/">WebStudio</a>
+    <footer class="footer">
+      <a class="logo" href="/">
+        <span class="logo-blue-footer">Web</span><span class="logo-white-footer">Studio</span>
+      </a>
       <address>
-        <p><a href="/">г. Киев, пр-т Леси Украинки, 26</a></p>
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <p><a class="footer-adress" href="/">г. Киев, пр-т Леси Украинки, 26</a></p>
+        <ul class="footer-contacts">
+          <li><a class="footer-mail" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
