@@ -14,6 +14,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 /* Index.html */
 
@@ -100,6 +103,7 @@ ul {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--main-blue);
@@ -191,6 +195,17 @@ ul {
   color: var(--footer-grey);
   font-size: 14px;
 }
+.footer-adress:hover,
+.footer-mail:hover,
+.footer-tel:hover {
+  color: var(--main-blue);
+}
+
+.footer-adress:focus,
+.footer-mail:focus,
+.footer-tel:focus {
+  color: var(--main-blue);
+}
 
 /* Portfolio.html */
 
@@ -201,9 +216,10 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  font-family: inherit;
 }
 .button:hover,
-button:focus {
+.button:focus {
   color: var(--main-white);
   background-color: var(--main-blue);
 }
