@@ -61,6 +61,10 @@ a {
   color: var(--main-blue);
 }
 
+.pages .studio-page.current,
+.portfolio-page.current {
+  color: var(--main-blue);
+}
 /* Header contacts */
 
 .header-contacts {
@@ -184,6 +188,7 @@ a {
 }
 
 .footer-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-white);
@@ -192,6 +197,7 @@ a {
 }
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   color: var(--footer-grey);
   font-size: 14px;
 }
